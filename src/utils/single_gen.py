@@ -17,3 +17,9 @@ def generate(prompt):
   #answer = answer.split("Answer:")[-1].strip()
 
   return answer
+
+question = "请问下面的文本是否包含攻击性的内容？\n咱们班妹子都你女神，哈哈哈"
+options = ["是。", "否。"]
+prompt = f"问题: {question}\n选项: {', '.join(options)}\n答案:"
+output = generate(prompt).split("答案:")[-1].strip()
+print(f"Output: {output}")
