@@ -16,6 +16,10 @@ OUTPUT_PATH = {
   'Llama_SB_en': 'SB/llama/predictions_en.json',
   'Qwen_SB_zh': 'SB/qwen/predictions_zh.json',
   'Qwen_SB_en': 'SB/qwen/predictions_en.json',
+  'Llamaf_SB_zh': 'SB/llama/finetuned_pre_zh.json',
+  'Llamaf_SB_en': 'SB/llama/finetuned_pre_en.json',
+  'Qwenf_SB_zh': 'SB/qwen/finetuned_pre_zh.json',
+  'Qwenf_SB_en': 'SB/qwen/finetuned_pre_en.json',
 }
 
 ANOMALY_PATH = {
@@ -23,4 +27,8 @@ ANOMALY_PATH = {
   'Llama_SB_en': 'SB/llama/anomalies_en.json',
   'Qwen_SB_zh': 'SB/qwen/anomalies_zh.json',
   'Qwen_SB_en': 'SB/qwen/anomalies_en.json',
+  'Llamaf_SB_zh': 'SB/llama/finetuned_anom_zh.json',
+  'Llamaf_SB_en': 'SB/llama/finetuned_anom_en.json',
+  'Qwenf_SB_zh': 'SB/qwen/finetuned_anom_zh.json',
+  'Qwenf_SB_en': 'SB/qwen/finetuned_anom_en.json',
 }
